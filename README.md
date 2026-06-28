@@ -6,7 +6,6 @@ This project analyzes Netflix's content catalog to understand content distributi
 
 The dataset originally contained 8,807 records. After cleaning missing values and removing incomplete records, 8,790 records remained for analysis. The project demonstrates an end-to-end data analytics workflow including data cleaning, exploratory analysis, statistical testing, and predictive modeling.
 
----
 
 # 1. Introduction
 
@@ -20,7 +19,6 @@ Netflix is one of the world's largest streaming platforms with a vast catalog of
 * Perform statistical analysis and hypothesis testing.
 * Forecast future Netflix content additions using predictive models.
 
----
 
 # 2. Data Cleaning and Preprocessing
 
@@ -51,7 +49,6 @@ Data cleaning steps included:
 * Original Records: 8,807
 * Clean Records: 8,790
 
----
 
 # 3. Exploratory Data Analysis
 
@@ -68,7 +65,6 @@ Netflix content is heavily dominated by movies.
 
 Movies represent nearly 70% of the Netflix catalog, indicating that Netflix relies heavily on film-based content.
 
----
 
 ## Country Analysis
 
@@ -85,7 +81,6 @@ Top contributing countries:
 
 The United States remains Netflix's primary content source. India is the second-largest contributor, highlighting Netflix's investment in international markets.
 
----
 
 ## Content Growth Over Time
 
@@ -104,7 +99,6 @@ Yearly additions:
 
 The platform experienced explosive growth between 2016 and 2019, with 2019 being the strongest content acquisition year.
 
----
 
 ## Rating Analysis
 
@@ -121,7 +115,6 @@ Most common ratings:
 
 Netflix primarily targets mature audiences, with TV-MA and TV-14 representing over half of all content.
 
----
 
 ## Genre Analysis
 
@@ -138,7 +131,6 @@ Most popular genres:
 
 International content plays a critical role in Netflix's global strategy.
 
----
 
 ## Duration Analysis
 
@@ -163,7 +155,6 @@ Season statistics:
 
 Most Netflix TV shows contain only one season, while movies typically last around 100 minutes.
 
----
 
 # 4. Statistical Analysis
 
@@ -180,8 +171,6 @@ ANOVA Result:
 
 Movie durations vary significantly across different rating categories.
 
----
-
 ## Hypothesis Test 2
 
 ### Is the proportion of Movies and TV Shows equal?
@@ -195,7 +184,6 @@ Chi-Square Test:
 
 Movies and TV Shows are not equally represented. Movies dominate the platform.
 
----
 
 ## Hypothesis Test 3
 
@@ -210,7 +198,6 @@ T-Test:
 
 Netflix significantly increased content additions after 2017.
 
----
 
 # 5. Additional Business Insights
 
@@ -240,7 +227,6 @@ Average release year:
 
 TV Shows are generally newer than Movies.
 
----
 
 # 6. Predictive Analytics
 
@@ -265,7 +251,6 @@ Predicted content additions:
 
 Linear Regression does not adequately capture Netflix's content growth pattern.
 
----
 
 ## ARIMA Forecast
 
@@ -283,7 +268,6 @@ Predicted additions:
 
 ARIMA predicts a gradual decline in content additions, suggesting Netflix may be approaching a mature growth stage.
 
----
 
 ## Prophet Forecast
 
@@ -293,7 +277,6 @@ Prophet forecasting model was trained successfully and used to model long-term g
 
 Prophet provides a flexible forecasting framework capable of handling trend changes and long-term business forecasting.
 
----
 
 # 7. Business Recommendations
 
@@ -303,7 +286,6 @@ Prophet provides a flexible forecasting framework capable of handling trend chan
 4. Monitor content acquisition trends as recent forecasts suggest slower growth compared to the rapid expansion period of 2016–2019.
 5. Utilize forecasting models to optimize future content acquisition strategies.
 
----
 
 # 8. Conclusion
 
